@@ -1,0 +1,204 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: #528ea1;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 450px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.side-box {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 100%;
+  background: #263e5c;
+  border-radius: 10px 0px 0px 10px;
+}
+.lights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 14px 14px;
+  width: 52px;
+}
+.r {
+  background: #ed6a5f;
+
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.y {
+  background: #f4bd4f;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.g {
+  background: #61c354;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.search {
+  display: flex;
+  width: 120px;
+  height: 22px;
+  margin-top: 10px;
+  background: #334d69;
+  box-shadow: inset 0px 0px 2px rgba(255, 243, 243, 0.25);
+  border-radius: 4px;
+  margin-left: 14px;
+  outline: none;
+  align-items: center;
+}
+#search-icon {
+  margin-left: 8px;
+}
+#search-input::-ms-clear,
+#search-input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+#search-input::-webkit-search-decoration,
+#search-input::-webkit-search-cancel-button,
+#search-input::-webkit-search-results-button,
+#search-input::-webkit-search-results-decoration {
+  display: none;
+}
+
+#search-input {
+  margin-top: 1px;
+  margin-left: 8px;
+  background-color: inherit;
+  width: 70%;
+  height: 80%;
+  outline: none;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #e1e1e1;
+}
+::placeholder {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #e1e1e193;
+}
+
+/* 메인 박스 CSS */
+.main-box {
+  background-image: url("background-image.jpg");
+  background-size: cover;
+  width: 450px;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/*
+CSS IMAGE SIZING 
+fill	기본값. 주어진 너비와 높이에 딱 맞도록 사이즈를 조절합니다. 이미지의 가로세로 비율은 유지되지 않아요.
+contain	가로세로 비율을 유지한 채로 사이즈가 조절되지만, 이미지와 컨테이너 간의 비율이 맞지 않는 경우엔 자리가 남게 됩니다.
+cover	가로세로 비율을 유지한 채로 사이즈가 조절되며, 비율이 맞지 않더라도 이미지를 확대해 컨테이너를 완전히 채웁니다.
+none	아무것도 하지 않고 본래의 이미지 사이즈를 유지합니다. 그래도 이미지 가운데가 보여지도록 하는 센스가 있어요.
+scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사이즈를 조절합니다.
+*/
+.header {
+  height: 25%;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.h1 {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+.date {
+  margin-top: 2px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.content {
+  height: 60%;
+  padding: 0 5%;
+}
+.form {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: #48484f;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  align-items: center;
+}
+.footer {
+  height: 15%;
+  padding: 0 5%;
+  padding-top: 10px;
+}
+
+.work-done-msg {
+  padding: 1px 0;
+  text-align: center;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  width: 44px;
+  height: 16px;
+  background: #2b3843;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+#work {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+#work-done {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #9b9b9b;
+}
+#work-input {
+  background-color: inherit;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  outline: none;
+}
