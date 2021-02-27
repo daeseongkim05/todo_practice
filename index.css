@@ -161,7 +161,7 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
   padding-top: 15px;
 }
 
-.work-done-msg {
+/* .work-done-msg {
   padding: 1px 0;
   text-align: center;
   font-family: SF Pro Display;
@@ -175,40 +175,64 @@ scale-down	none 또는 contain 중에 더 적절한 방향으로 이미지 사�
   background: #2b3843;
   border-radius: 5px;
   margin-bottom: 4px;
-}
-
-#work {
-  margin-left: 4px;
-  margin-top: 1px;
-  font-family: SF Pro Display;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 14px;
-  color: #ffffff;
-  width: 335px;
-}
-#work-done {
-  margin-left: 4px;
-  margin-top: 1px;
+} */
+.work-done-msg {
+  /* padding: 2px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  color: #ffffff;
+  width: 44px;
+  height: 16px;
+  line-height: normal;
+  background: #2b3843;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+#work {
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  /* margin-top: 1px; */
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: normal;
+  color: #ffffff;
+  width: 335px;
+}
+#work-done {
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  /* margin-top: 1px; */
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: normal;
   text-decoration-line: line-through;
   color: #9b9b9b;
   width: 335px;
 }
 #work-input {
+  display: flex;
+  align-items: center;
   margin-left: 4px;
-  margin-top: 1px;
+  /* margin-top: 1px; */
   background-color: inherit;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 14px;
+  line-height: normal;
   color: #ffffff;
   outline: none;
   width: 335px;
